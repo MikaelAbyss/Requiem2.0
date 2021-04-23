@@ -12,29 +12,29 @@ import Carousel from 'react-bootstrap/Carousel'
 function App() {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
         <a class="navbar-brand" href="#">Requiem Music</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Songs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artists</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Bands</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
-            This was a mine idea
-          </span>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Songs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artists</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bands</a>
+                </li>
+            </ul>
+              <span class="navbar-text">
+                This was a mine idea
+              </span>
+          </div>
         </div>
-      </div>
       </nav>
       <Carousel>
   <Carousel.Item>
@@ -75,7 +75,6 @@ function App() {
 </Carousel>
       <Switch>
         <Route exact path="/" component={Login} />
-        <Route path="/register/:id" component={Register} />
       </Switch>
     </div>
   );

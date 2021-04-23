@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.carousel {
+  width:900px;
+  height:500px;
+  margin: auto;
+}
+.container {
+  padding: 50px;
+}
+.teste {
+  text-align: center;
+  background-color: black;
+}
